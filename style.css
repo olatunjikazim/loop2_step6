@@ -19,3 +19,36 @@
     padding: auto;
     margin-top: 7rem;
 }
+
+.header {
+    width: 23rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+p {
+    color: #978f99;
+    font-weight: 500;
+}
+
+.line1 {
+    width: 25rem;
+    border-bottom: 1px solid #978f99;
+}
+
+.weeks {
+    width: 23rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    color: #978f99;
+    font-weight: bold;
+}
