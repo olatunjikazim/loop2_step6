@@ -1,54 +1,115 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.loop {
-    width: 100vw;
-    height: 100vh;
-    background-color: #78accd;
-    position: fixed;
-}
-
-.loop1 {
-    width: 25rem;
-    height: 25rem;
-    background-color: #fff;
-    margin: auto;
-    padding: auto;
-    margin-top: 7rem;
-}
-
-.header {
-    width: 23rem;
-    height: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-}
-
-p {
-    color: #978f99;
-    font-weight: 500;
-}
-
-.line1 {
-    width: 25rem;
-    border-bottom: 1px solid #978f99;
-}
-
-.weeks {
-    width: 23rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    color: #978f99;
-    font-weight: bold;
-}
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .loop {
+        width: 100vw;
+        height: 100vh;
+        background-color: #78accd;
+        position: fixed;
+    }
+    
+    .loop1 {
+        width: 25rem;
+        height: 25rem;
+        background-color: #fff;
+        margin: auto;
+        padding: auto;
+        margin-top: 7rem;
+    }
+    
+    .header {
+        width: 23rem;
+        height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+    
+    p {
+        color: #978f99;
+        font-weight: 500;
+    }
+    
+    .line1 {
+        width: 25rem;
+        border-bottom: 1px solid #978f99;
+    }
+    
+    .weeks {
+        width: 23rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        color: #978f99;
+        font-weight: bold;
+    }
+    
+    .date1 {
+        width: 23rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: 500;
+    }
+    
+    .color {
+        color: #978f99;
+    }
+    
+    .date2 {
+        width: 23rem;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+    
+    .four {
+        margin-left: .3rem;
+    }
+    
+    .five {
+        margin-left: .5rem;
+    }
+    
+    .six {
+        margin-left: .5rem;
+    }
+    
+    .seven {
+        margin-left: 1rem;
+    }
+    
+    .eight {
+        margin-left: 1rem;
+    }
+    
+    .nine {
+        margin-left: .5rem;
+    }
+    
+    .date3 {
+        width: 23rem;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
